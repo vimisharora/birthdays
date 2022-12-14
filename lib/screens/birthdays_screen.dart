@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:birthdays/screens/add_new_screen.dart' as screen;
 
 class BirthdayScreen extends StatelessWidget{
-  const BirthdayScreen({Key? key}) : super(key: key);
+  BirthdayScreen({Key? key,names, birthdays}
+   ) : super(key: key);
+
+  // get list => [];
 
   @override
   Widget build(BuildContext context) {
